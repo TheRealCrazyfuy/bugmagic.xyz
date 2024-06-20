@@ -1,0 +1,33 @@
+* {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    user-select: none;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+}
+
+a:focus,
+a:active {
+    user-select: none;
+}
+
+#links {
+    display: flex;
+}
+
+#top {
+    text-align: center;
+}
+
+#infotextlol {
+    margin-top: 200px;
+}
+
+@media only screen and (max-width: 1120px) {
+    iframe {
+        width: 100%;
+        height: 315px;
+    }
+  }
